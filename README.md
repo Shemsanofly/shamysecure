@@ -66,6 +66,12 @@ On each computer that wants to send or receive files:
 python secure_transfer.py client --host <server-ip>
 ```
 
+Example:
+
+```bash
+python3 secure_transfer.py client --host 169.58.9.58 --port 5050
+```
+
 ### 3. Send a file
 
 On the client, choose **2) Send a file**, pick the computer, then type the path of the file.
